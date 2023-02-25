@@ -1,0 +1,67 @@
+@media screen and (max-width: 1700px) {
+  .solved-problems > .container {
+    grid-template-columns: repeat(3, minmax(250px, 450px));
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .solved-problems > .container {
+    grid-template-columns: repeat(2, minmax(250px, 450px));
+  }
+
+  .content__items {
+    flex-direction: column;
+  }
+
+  .table {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .solved-problems > .container {
+    grid-template-columns: repeat(2, minmax(250px, 450px));
+  }
+
+  .header__exit {
+    margin-left: 0px;
+  }
+
+  .solved-problems__tags {
+    font-size: var(--small);
+  }
+
+  .container {
+    padding: 0px 15px !important;
+  }
+
+  .title {
+    font-size: 28px !important;
+  }
+
+  .filters {
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: 2fr;
+  }
+
+  .table {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .solved-problems > .container {
+    grid-template-columns: repeat(1, minmax(250px, 450px));
+  }
+}
+
+@media screen and (max-width: 500px) { 
+  .table {
+    width: 350px;
+  }
+
+  .header__menu {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+/* IMPORT STYLES */
+@import "./fonts.css";
+@import "./reset.css";
+@import "./vars.css";
+@import "./header.css";
+@import "./content.css";
+@import "./footer.css";
+@import "./media.css";
+
+/* CONTAINER */
+.container {
+  padding: 0 30px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: var(--big);
+}

@@ -1,0 +1,19 @@
+:root {
+  /* COLORS */
+  --grey: #dddddd;
+  --grey-dark: #cccccc;
+  --blue: #4262ff;
+  --blue-light: #f7f9ff;
+  --blue-dark: #344cc2;
+  --white: #fff;
+  --black: #000;
+  --red: #ff0000;
+  --red-dark: #b60000;
+  --green: #008000;
+  --green-dark: #007400;
+  /* FONT SIZE */
+  --small: 13px;
+  --main: 16px;
+  --big: 28px;
+  --large: 46px;
+}
